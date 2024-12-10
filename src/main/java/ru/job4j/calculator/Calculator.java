@@ -2,11 +2,13 @@ package ru.job4j.calculator;
 
 public class Calculator {
 
-    public static void main(String[] args) {
-        int ten = 10;
-        int two = 2;
-        int tenDivtwo = ten / two;
-        System.out.println(tenDivtwo);
+    public static void tim(float katet1, float katet2) {
+        float two = 2;
 
+        System.out.println((katet1 * katet2) / two);
+    }
+
+    public static void main(String[] args) {
+        Calculator.tim(3, 5);
     }
 }
