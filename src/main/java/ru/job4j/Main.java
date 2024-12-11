@@ -1,11 +1,17 @@
-package ru.job4;
+package ru.job4j.calculator;
 
-public class Main {
+public class ArgumentsMethod {
+
+    public static void hello(String name, int age) {
+        System.out.println("Hello, " + name + ", age = " + age);
+    }
+
     public static void main(String[] args) {
-        System.out.println("Привет мир");
-        System.out.println("Hello, world!");
-        System.out.println("Привет");
-
-        char tools = 'l';
+        String name = "Job4j";
+        int age = 6;
+        ArgumentsMethod.hello(name, age);
+        ArgumentsMethod.hello(name, age);
+        ArgumentsMethod.hello(name, age);
+        ArgumentsMethod.hello(name, age);
     }
 }
