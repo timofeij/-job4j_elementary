@@ -2,13 +2,19 @@ package ru.job4j.calculator;
 
 public class Calculator {
 
-    public static void tim(float katet1, float katet2) {
-        float two = 2;
+    public static void plus(int first, int second) {
+        int result = first + second;
+        System.out.println(result);
+    }
 
-        System.out.println((katet1 * katet2) / two);
+    public static void minus(int first, int second) {
+        int result = first - second;
+        System.out.println(result);
     }
 
     public static void main(String[] args) {
-        Calculator.tim(3, 5);
+        plus(1, 2);
+        plus(10, 11);
+        System.out.println("Кинетическая энергия = " + MathFunction.func1(1, 2) + " Дж");
     }
 }
